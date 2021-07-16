@@ -55,4 +55,7 @@ cd snort3-3.1.6.0
 ./configure_cmake.sh --prefix=/usr/local --enable-tcmalloc
 cd build
 make && sudo make install
+cd /etc
+sudo wget https://snort.org/downloads/community/snort3-community-rules.tar.gz
+sudo tar -xzvf snort3-community-rules.tar.gz
 snort -V
