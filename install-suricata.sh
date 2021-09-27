@@ -5,3 +5,4 @@ sudo apt-get update
 sudo apt-get install suricata
 sudo suricata-update
 sudo suricata-update update-sources
+suricata -V
