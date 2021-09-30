@@ -2,7 +2,8 @@
 
 | snort3 | suricata | metasploitable3 | 
 |:---------------------:|:-----------------------:|:-------------------------------:|
-| `./install-snort3.sh` | `./install-suricata.sh` | `./install-Metasploitable3l.sh`  Пользователь: vagrant  Пароль: vagrant |
+| `./install-snort3.sh` | `./install-suricata.sh` | `./install-Metasploitable3l.sh` 
+Пользователь: vagrant  Пароль: vagrant |
 
 
 # Некоторые встроенные уязвимости в Metasploitable3
