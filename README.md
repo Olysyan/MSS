@@ -22,4 +22,8 @@
 
 - `sudo gedit /etc/suricata/suricata.yaml` - ... <br>af-packet: <br>    interface: название интерфейса <br>...<br>pcap:<br>   interface: название интерфейса <br>...<br>pfring:<br>   interface: название интерфейса<br>...
 
+- `sudo su` -> `gedit /var/lib/suricata/rules/suricata.rules` - назначение правил 
+
+- `sudo tail -f /var/log/suricata/fast.log` - вывод логов в терминал
+
 `systemctl status/start/stop/restart suricata` - узнать статус / запустить / остановить / перезапуск suricata 
