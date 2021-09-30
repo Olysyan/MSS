@@ -20,7 +20,7 @@
 
 - `sudo gedit /etc/default/suricata` - IFACE = название интерфейса 
 
-- `sudo gedit /etc/suricata/suricata.yaml` - ```...
+- `sudo gedit /etc/suricata/suricata.yaml` - ...
                                                 af-packet:
                                                    interface: ens32
                                                 ...
@@ -29,6 +29,6 @@
                                                 ...
                                                 pfring:
                                                    interface: ens32
-                                                ...```
+                                                ...
 
 `systemctl status/start/stop/restart suricata` - узнать статус / запустить / остановить / перезапуск suricata 
