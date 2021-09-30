@@ -11,3 +11,24 @@
 |:-----:|:-----------------------:|:--------------------------:|:-------------------------:|:-----:|
 |80 - HTTP|[http://localhost](http://localhost)|auxiliary/dos/http/ms15_034_ulonglongadd|CVE-2015-1635| DOs |
 |8484 - HTTP|[http://localhost:8484](http://localhost:8484)|exploits/multi/http/jenkins_script_console &#124; auxiliary/scanner/http/jenkins_enum|  | доступ Meterpreter &#124; поиск серверов Jenkins |
+
+# IDS suricata 
+
+`ip a` - узнать название сетевого интерфейса
+
+Базовая настройка:
+
+- `sudo gedit /etc/default/suricata` - IFACE = название интерфейса 
+
+- `sudo gedit /etc/suricata/suricata.yaml` - ...
+af-packet:
+    interface: название интерфейса 
+...
+pcap:
+   interface: название интерфейса 
+...
+pfring:
+   interface: название интерфейса 
+...
+
+`systemctl status/start/stop/restart suricata` - узнать статус / запустить / остановить / перезапуск suricata 
