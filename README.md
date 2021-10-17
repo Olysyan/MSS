@@ -10,9 +10,10 @@
 | Порты | Доступ | Модуль в Metasploit | CVE | Описание |
 |:-----:|:-----------------------:|:--------------------------:|:-------------------------:|:-----:|
 |80 - HTTP|[http://localhost](http://localhost)|auxiliary/dos/http/ms15_034_ulonglongadd|CVE-2015-1635| DOs |
-|8484 - HTTP|[http://localhost:8484](http://localhost:8484)|exploits/multi/http/jenkins_script_console &#124; auxiliary/scanner/http/jenkins_enum|  | доступ Meterpreter &#124; поиск серверов Jenkins |
+|8484 - HTTP|[http://localhost:8484](http://localhost:8484)|exploits/multi/http/jenkins_script_console &#124; auxiliary/scanner/http/jenkins_enum|  | возможность загрузки payload &#124; поиск серверов Jenkins |
+|8282 - HTTP|[http://localhost:8282/axis2](http://localhost:8282/axis2)|exploit/multi/http/axis2_deployer|CVE-2010-0219|возможность загрузки payload|
 
-# IDS suricata 
+# IDS suricata
 
 `ip a` - узнать название сетевого интерфейса
 
