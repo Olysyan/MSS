@@ -1,2 +1,1 @@
-alert tcp $EXTERNAL_NET any -> $HOME_NET 80 (msg: " MS15-034 Range Header HTTP.sys Exploit"; content: "|0d 0a|Range: bytes="; nocase; content: "-"; within: 20 ; byte_test: 10,>,1000000000,0,relative,string,dec ; sid: 1001239;)
-
+alert tcp any any -> any any (msg: " MS15-034 Detected "; content: "|0d 0a|Range: bytes="; nocase; content: "-"; within: 20 ; byte_test: 10,>,1000000000,0,relative,string,dec ; sid: 14881488;)
