@@ -11,7 +11,7 @@
 |:-----:|:-----------------------:|:--------------------------:|:-------------------------:|:-----:|
 |80 - HTTP|[http://localhost](http://localhost)|auxiliary/dos/http/ms15_034_ulonglongadd|CVE-2015-1635| DOs |
 |8484 - HTTP|[http://localhost:8484](http://localhost:8484)|exploits/multi/http/jenkins_script_console &#124; auxiliary/scanner/http/jenkins_enum|  | возможность загрузки payload &#124; поиск серверов Jenkins |
-|8282 - HTTP|[http://localhost:8282/axis2](http://localhost:8282/axis2)|exploit/multi/http/axis2_deployer|CVE-2010-0219|возможность загрузки payload|
+|9200 - HTTP|[http://localhost:9200/](http://localhost:9200/)|exploit/multi/elasticsearch/script_mvel_rce|CVE-2014-3120|возможность загрузки payload|
 
 # IDS suricata
 
